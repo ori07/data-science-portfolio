@@ -1,0 +1,46 @@
+# 🐍 Entorno virtual (venv, conda, etc.)
+.venv/
+venv/
+env.bak/
+*.egg-info/
+*.pyc
+__pycache__/
+
+# 📓 Jupyter Notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# 📦 Archivos de dependencias y paquetes
+*.pkl
+*.h5
+*.joblib
+
+# 📊 Archivos de datos (si no quieres subirlos)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.parquet
+
+# 📈 Resultados renderizados
+*.html
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# 🧪 Archivos de configuración local
+.DS_Store
+*.log
+*.out
+
+# ⚙️ Configuración de herramientas
+.env
+.env.*
+
+# 🧪 VSCode / IDE
+.vscode/
+.idea/
