@@ -1,0 +1,6 @@
+* **Problema de Negocio:** Predecir qué clientes tienen una alta probabilidad de abandonar un servicio financiero en los próximos meses.
+* **Fases consideradas para el problema:**
+    1.  **Análisis y Exploración (Jupyter Notebooks):** A partir un conjunto de datos público de *Bank Customer Churn* (disponible en Kaggle). Usar **Python (Pandas, NumPy)** para limpiar, transformar y analizar las variables que puedan influir en el abandono.
+    2.  **Modelado y Evaluación (Python):** Desarrollar un modelo de clasificación (por ejemplo, **Regresión Logística, Random Forest o Gradient Boosting**) usando bibliotecas como **scikit-learn**. Evalúa el modelo con métricas como precisión, *recall* y *F1-score*, y presenta los resultados.
+    3.  **Visualización y *Storytelling* (Power BI/Tableau):** A través un *dashboard* interactivo mostrar los principales factores de riesgo que llevan al abandono y las métricas de rendimiento del modelo. El objetivo es que un gerente de negocio pueda entender los resultados y tomar decisiones.
+    4.  **Despliegue y Mantenimiento:** Explicar en un documento cómo el modelo podría ser puesto en producción, cómo se podría monitorear para evitar la degradación del rendimiento con el tiempo y cómo se reentrenarías.
